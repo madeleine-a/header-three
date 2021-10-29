@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: Header-Three
+  sleuth:
+    baggage:
+      remote-fields: businessId
+      correlation-fields: businessId
+    messaging:
+      enabled: false
+
+server:
+  port: 8084
